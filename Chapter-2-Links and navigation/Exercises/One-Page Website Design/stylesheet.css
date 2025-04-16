@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+    color: black;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+  }
+  
+  .navbar {
+    background-color: #222;
+    padding: 14px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar a {
+    color: antiquewhite;
+    margin: 0 19px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: brown;
+  }
+  
+  section {
+    padding: 32px;
+    border-bottom: 2px solid #91df00;
+  }
+  
+  h1, h2 {
+    color: blue;
+  }
+  
+  .button-link {
+    background-color: darkorange;
+    color: white;
+    padding: 11px 17px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 12px;
+  }
+  
+  .button-link:hover {
+    background-color: darkgrey;
+  }
+  
+  /* Styled review block */
+  blockquote {
+    font-style: italic;
+    color: rgb(147, 76, 26);
+    border-left: 5px solid
+    padding-left: 16px;
+    margin: 24px 0;
+  }

@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(47, 31, 197, 0.782);
+    text-align: center;
+    padding: 25px;
+  }
+  
+  h1 {
+    color: #e1f40e;
+  }
+  
+  .image-container {
+    margin-bottom: 46px;
+  }
+  
+  img {
+    width: 700px;
+    height: 550px;
+    max-width: 90%;
+    filter: contrast(1.1) saturate(1.2) grayscale(20%);
+    border-radius: 14px;
+    box-shadow: 0 6px 10px rgba(3, 232, 232, 0.2);
+  }
+  
+  .caption {
+    font-size: 0.95rem;
+    color: #0ad6ffa9;
+    margin-top: 15px;
+  }
+  

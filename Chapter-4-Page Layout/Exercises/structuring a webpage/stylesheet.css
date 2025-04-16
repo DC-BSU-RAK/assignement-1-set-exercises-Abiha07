@@ -1,0 +1,101 @@
+/* Reset and Base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Section */
+.main-header {
+  background-color: #0b0b33;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.main-header h1 {
+  text-decoration: underline; /* KEEP underline on main title */
+  margin: 0;
+}
+
+/* Navigation Styles */
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 0;
+  margin-top: 20px;
+  list-style: none;
+}
+
+nav ul li a,
+nav ul li a:visited {
+  text-decoration: none; /* Remove underline from nav links */
+  color: white;
+  font-size: 18px;
+}
+
+/* Layout */
+main {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+/* Main content */
+section {
+  flex: 2;
+}
+
+section article h2 {
+  text-decoration: underline; /* KEEP underline on Welcome */
+  color: black;
+}
+
+section article p {
+  font-size: 17px;
+  color: black;
+}
+
+section article p a {
+  text-decoration: none; /* Remove underline from links in paragraph */
+  color: black; /* Keep link color normal */
+}
+
+/* Welcome image */
+#image-container img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Aside section */
+aside {
+  flex: 1;
+  background-color: #0b1b4f;
+  color: white;
+  padding: 20px;
+  margin-left: 30px;
+}
+
+aside h2 {
+  text-decoration: underline; /* KEEP underline on Line Up */
+}
+
+aside ul li {
+  text-decoration: none; /* Ensure no underline in list items */
+}
+
+.lineup-images img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/* Footer */
+footer {
+  background-color: #6b4cd4;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  margin-top: 30px;
+}

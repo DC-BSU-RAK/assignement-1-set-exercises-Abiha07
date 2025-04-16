@@ -1,0 +1,8 @@
+function calculateTotal() {
+    const costPerLiter= parseFloat(document.getElementById('costPerLiter').value);
+    const litersPurchased= parseFloat(document.getElementById('litersPurchased').vale);
+
+    const totalCost = costPerLiter * litersPurchased;
+
+    document.getElementById('result').textContent = Total costPerLiter: £${totalCost.toFixed(2)};
+}

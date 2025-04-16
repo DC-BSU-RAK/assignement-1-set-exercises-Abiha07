@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: blueviolet;
+    color: #b22222;
+    margin: 30px;
+    line-height: 1.6;
+  }
+  
+  h1 {
+    color: blue;
+    font-size: 36px;
+    border-bottom: 4px slateblue;
+    padding-bottom: 10px;
+  }
+  
+  h2 {
+    color: aqua;
+    font-size: 26px;
+    margin-top: 34px;
+  }
+  
+  ul, ol {
+    margin-left: 23px;
+  }
+  
+  ul li, ol li {
+    margin-bottom: 14px;
+  }
+  
+  p {
+    font-size: 16px;
+  }
+  
